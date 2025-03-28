@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categoria</title>
-</head>
-<body>
+@extends('layouts.estrutura')
+@section('content')
     <h1>Página da categoria</h1>
-</body>
-</html>
+
+    Clique <a href="/"> aqui </a> para voltar!
+@endsection
